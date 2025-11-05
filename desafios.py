@@ -17,12 +17,7 @@ def mostrar_mensagem_inicial():
     return "Bem-vindo ao Desafio de Git!"
 
 def listar_comandos_git_basicos():
-    """
-    Retorna uma lista com os principais comandos básicos do Git.
-    Exemplo de saída:
-    ["git init", "git add", "git commit", "git status", "git push"]
-    """
-    pass
+    print(["git init", "git add", "git commit", "git status", "git push"])
 
 
 def criar_mensagem_commit(funcao_nome):
