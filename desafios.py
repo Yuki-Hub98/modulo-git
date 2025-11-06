@@ -39,13 +39,8 @@ def verificar_tag_valida(tag: str):
 
 
 def gerar_relatorio_final(funcoes_concluidas):
-    """
-    Recebe uma lista com os nomes das funções implementadas
-    e retorna uma mensagem final do desafio.
-
-    Exemplo:
-    gerar_relatorio_final(["mostrar_mensagem_inicial", "listar_comandos_git_basicos"])
-    ->
-    "Desafio concluído! 2 funções implementadas com sucesso."
-    """
-    pass
+    if len(funcoes_concluidas) > -1:
+        return f"Desafio concluído! {len(funcoes_concluidas)} funções implementadas com sucesso."
+    else:
+        return "Nenhuma função implementada."
+    
