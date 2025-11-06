@@ -17,11 +17,12 @@ def mostrar_mensagem_inicial():
     return "Bem-vindo ao Desafio de Git!"
 
 def listar_comandos_git_basicos():
-    print(["git init", "git add", "git commit", "git status", "git push"])
+    mensagens_commit = ["git init", "git add", "git commit", "git status", "git push"]
+    return mensagens_commit
 
 
 def criar_mensagem_commit(funcao_nome):
-    print(f"Implementa função {funcao_nome}")
+    return f"Implementa função {funcao_nome}"
 
 
 def verificar_tag_valida(tag: str):
